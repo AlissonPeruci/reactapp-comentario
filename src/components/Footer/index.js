@@ -1,11 +1,15 @@
 import React from "react";
+import {AreaFooter} from "./styled";
 
 function Footer(){
     
     return (
-        <>
-            Todos os diretorios reservados
-        </>
+        <AreaFooter>
+            <div className="footer">
+                2022
+            </div>
+        </AreaFooter>
+        
     )
 }
 export default Footer;

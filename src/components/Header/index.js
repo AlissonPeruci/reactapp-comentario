@@ -1,24 +1,16 @@
 import React from "react";
-import {AreaHeader} from "./styled"
+import { AreaHeader } from "./styled"
 
-function Header(){
+
+function Header() {
     return (
-       <AreaHeader>
-        <div className="container">
-              <div className="logo">
-                  LOGOMARCA
+        <AreaHeader>
+            <div className="container">
+                <div className="title">
+                    BUSCA COMENTÁRIOS   
                 </div>
-
-                <nav>
-                    <ul>
-                     <li>configurações</li>
-                     <li>sair</li>
-                </ul>
-              </nav>
-          </div>
-       </AreaHeader>
+            </div>
+        </AreaHeader>
     )
-
-
 }
 export default Header;
